@@ -1,0 +1,24 @@
+.katalog-filter {
+    margin-right: 40px;
+    margin-top: 90px;
+}
+
+.yith-woocommerce-ajax-product-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.widgettitle {
+    display: none;
+}
+
+.widget .yit-wcan-select-open {
+    width: 100%;
+}
+
+.yith-wcan-select-wrapper {
+    top: 68px;
+}
+

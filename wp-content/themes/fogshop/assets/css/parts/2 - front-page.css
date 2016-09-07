@@ -1,0 +1,118 @@
+.hello {
+    padding: 10vh 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hello .full-height {
+}
+
+.hello-title {
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 10px 9px 5px rgba(0,0,0,.10);
+    position: relative;
+}
+
+.hello-title:after {
+    content: '';
+    width: 250px;
+    height: 4px;
+    background-color: #C0AA61;
+    position: absolute;
+    top: 135px;
+    left: calc(50% - 125px);
+}
+
+.hello-untitle {
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 22px;
+    margin-left: 16px;
+    color: #fff;
+}
+
+.hello .button {
+    color: #fff;
+        border: 1px solid #fff;
+}
+
+/* products of week */
+
+.recent-products {
+    margin-top: 46px;
+}
+
+.recent-products-item {
+    height: 350px;
+    float: left;
+}
+
+.recent-products-item-wrap {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    align-items: flex-end;
+    background-color: #ececec;
+}
+
+.recent-products-item-wrap-desc {
+    padding: 10px;
+    background-color: rgba(255,255,255,.75);
+    width: 100%;
+    text-align: center;
+}
+
+.recent-products > .wrap > .recent-products-item:nth-of-type(3) {
+    height: 700px;
+    float: right;
+}
+
+
+
+/* product-new */
+
+.product-new {
+    margin: 100px 0;
+}
+
+.product-new .woocommerce {
+    margin-top: 24px;
+}
+
+.peoduct-new .katalog-grid .katalog-product-image {
+    padding: 40px;
+}
+
+/* about */
+
+.section-bg {
+    background: url('http://www.wired.com/wp-content/uploads/2015/04/vape-inline.jpg') center center no-repeat;
+    background-size: cover;
+    margin: 100px 0;
+}
+
+.section-bg .full-height {
+    padding: 100px 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+/* section-subscribe */
+
+.section-subscribe {
+    margin: 100px 0;
+}
+
+/* page-content */
+
+.page-content {
+    margin-bottom: 100px;
+}
+
+.page-content h3 {
+    color: #121212;
+}

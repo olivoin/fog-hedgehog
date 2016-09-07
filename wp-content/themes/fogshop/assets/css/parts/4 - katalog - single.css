@@ -1,0 +1,57 @@
+.woocommerce-main-image img {
+    padding: 40px;
+    border: 1px solid #C0AA61;
+}
+
+.summary.entry-summary .product_title {
+    font-size: 48px;
+    line-height: 1.1
+}
+
+body.single-product .katalog-filter {
+    display: none;
+}
+
+body.single-product .katalog-wrapper {
+    width: 100%;
+}
+
+body.single-product .custom-attributes {
+    margin-top: 24px;
+}
+
+body.single-product .custom-attributes .attribute-label,
+body.single-product .custom-attributes .attribute-value{
+    background-color: #fff;
+}
+
+body.single-product .price ins,
+body.single-product .price{
+    font-size: 24px;
+    color: #C0AA61;
+}
+
+body.single-product .price del {
+    font-size: 20px;
+}
+
+body.single-product form.cart {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px dashed #C0AA61;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.katalog-single-popular {
+    margin-top: 150px;
+}
+
+.katalog-single-popular .section-title {
+    margin-bottom: 80px;
+}
+
+.uptolike-buttons {
+    margin: 24px 0;
+}
